@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:homepage/routs.dart';
 import 'package:homepage/screen/splash.dart';
 
 void main() {
@@ -15,7 +16,9 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SplashScreen()
+      //home: SplashScreen()
+      initialRoute: SplashScreen.routeName,
+      routes: rotes,
     );
   }
 }
