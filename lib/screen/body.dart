@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:homepage/components/default_button.dart';
+import 'package:homepage/sign_in/sign_in_screen.dart';
 import 'package:homepage/size_config.dart';
 //import '../screen/splash_content.dart';
 
@@ -63,7 +64,9 @@ class _BodyState extends State<Body> {
                     Spacer(flex: 1,),
                     DefaultButton(
                       text: "Trade In GSM 시작",
-                      press: () { },
+                      press: () { 
+                        Navigator.pushNamed(context, SignInScreen.routeName);
+                      },
                     ),
                     Spacer(),
                   ],
@@ -101,7 +104,7 @@ class SplashContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: <Widget>[
+      children: <Widget>[ 
         Spacer(),
         Text('Trade In GSM',
         style: TextStyle(fontSize: getProportionateScreenWidth(34),
