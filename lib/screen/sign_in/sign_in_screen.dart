@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:homepage/screen/body.dart';
-
+import 'components/body.dart';
 
 class SignInScreen extends StatelessWidget {
   static String routeName = "/sign_in";
@@ -8,11 +7,9 @@ class SignInScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("로그인",textAlign: TextAlign.center),
+        title: Text("           로그인"),
       ),
-      body: Body(
-        
-      ),
+      body: Body(),
     );
   }
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:homepage/routs.dart';
-import 'package:homepage/screen/splash.dart';
+import 'package:homepage/screen/splash/components/splash.dart';
 import 'package:homepage/theme.dart';
 
 void main() {

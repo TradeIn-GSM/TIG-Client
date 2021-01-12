@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:homepage/components/default_button.dart';
-import 'package:homepage/sign_in/sign_in_screen.dart';
+import 'package:homepage/screen/sign_in/sign_in_screen.dart';
 import 'package:homepage/size_config.dart';
 //import '../screen/splash_content.dart';
 
@@ -17,7 +17,7 @@ class _BodyState extends State<Body> {
       "image": "ddong.png",
     },
     {   
-      "text": "Trade In GSM은 ----",
+      "text": "Trade In GSM은 1234",
       "image": "joyuri.jpg",
     },
     {   
